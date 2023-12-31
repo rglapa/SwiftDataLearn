@@ -9,16 +9,25 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
     @Query private var cards: [Card]
     @State private var editing = false
     @State private var navigationPath: [Card] = []
+    @Environment(\.modelContext) private var modelContext
     
-
     var body: some View {
         NavigationStack(path: $navigationPath) {
-            
+            CardGallery(cards: cards, editing: $editing) { card in
+                withAnimation { navigationPath.append(card) }
+            } addCard: {
+                let newCard = Card(front: "Sample Front", back: "Sample Back")
+                modelContext.insert(newCard)
+                withAnimation {
+                    editing = true
+                    navigationPath.append(newCard)
+                }
+            }
+            .padding()
+            .toolbar { EditorToolbar(isEnabled: false, editing: $editing)}
         }
     }
 }
@@ -26,4 +35,7 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .modelContainer(previewContainer)
+    #if os(macOS)
+        .frame(minWidth: 500, minHeight: 500)
+    #endif
 }

@@ -24,9 +24,14 @@ struct SwiftDataLearnApp: App {
     }()
 
     var body: some Scene {
-        WindowGroup {
+        #if os(iOS)
+        DocumentGroup(editing:.flashCards, migrationPlan: FlashCardsMigrationPlan.self) {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+        #else
+        WindowGroup {
+            ContentView().modelContainer(previewContainer)
+        }
+        #endif
     }
 }

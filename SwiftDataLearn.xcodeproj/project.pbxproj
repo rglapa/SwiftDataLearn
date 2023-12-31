@@ -15,6 +15,20 @@
 		4520D1BD2B1BCD82005FA451 /* SwiftDataLearnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1BC2B1BCD82005FA451 /* SwiftDataLearnTests.swift */; };
 		4520D1C72B1BCD83005FA451 /* SwiftDataLearnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1C62B1BCD83005FA451 /* SwiftDataLearnUITests.swift */; };
 		4520D1C92B1BCD83005FA451 /* SwiftDataLearnUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1C82B1BCD83005FA451 /* SwiftDataLearnUITestsLaunchTests.swift */; };
+		4520D1D72B1BCE12005FA451 /* SampleDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1D62B1BCE12005FA451 /* SampleDeck.swift */; };
+		4520D1D92B1BCE6D005FA451 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1D82B1BCE6D005FA451 /* Card.swift */; };
+		4520D1DC2B1BE50F005FA451 /* PreviewSampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DB2B1BE50F005FA451 /* PreviewSampleData.swift */; };
+		4520D1DE2B1BE65C005FA451 /* Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DD2B1BE65C005FA451 /* Design.swift */; };
+		4520D1E02B1BE6DE005FA451 /* UTType+FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1DF2B1BE6DE005FA451 /* UTType+FlashCards.swift */; };
+		4520D1E22B1BE71C005FA451 /* HorizontalFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1E12B1BE71C005FA451 /* HorizontalFlip.swift */; };
+		4520D1E52B1BE82F005FA451 /* EditorToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1E42B1BE82F005FA451 /* EditorToolbar.swift */; };
+		4520D1E72B1BE8DE005FA451 /* CardReaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1E62B1BE8DE005FA451 /* CardReaderView.swift */; };
+		4520D1E92B1BE942005FA451 /* CardContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1E82B1BE942005FA451 /* CardContainerView.swift */; };
+		4520D1EB2B1CFC77005FA451 /* CardGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1EA2B1CFC77005FA451 /* CardGallery.swift */; };
+		4520D1ED2B1CFD8C005FA451 /* CardGalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1EC2B1CFD8C005FA451 /* CardGalleryItem.swift */; };
+		4520D1EF2B1CFF6C005FA451 /* CardCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4520D1EE2B1CFF6C005FA451 /* CardCarousel.swift */; };
+		847561622B1D02460070F9ED /* CardEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847561612B1D02460070F9ED /* CardEditorView.swift */; };
+		847561642B1D05B60070F9ED /* FlashCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847561632B1D05B60070F9ED /* FlashCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +61,21 @@
 		4520D1C22B1BCD83005FA451 /* SwiftDataLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDataLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4520D1C62B1BCD83005FA451 /* SwiftDataLearnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLearnUITests.swift; sourceTree = "<group>"; };
 		4520D1C82B1BCD83005FA451 /* SwiftDataLearnUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataLearnUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4520D1D62B1BCE12005FA451 /* SampleDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDeck.swift; sourceTree = "<group>"; };
+		4520D1D82B1BCE6D005FA451 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		4520D1DB2B1BE50F005FA451 /* PreviewSampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewSampleData.swift; sourceTree = "<group>"; };
+		4520D1DD2B1BE65C005FA451 /* Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design.swift; sourceTree = "<group>"; };
+		4520D1DF2B1BE6DE005FA451 /* UTType+FlashCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UTType+FlashCards.swift"; sourceTree = "<group>"; };
+		4520D1E12B1BE71C005FA451 /* HorizontalFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalFlip.swift; sourceTree = "<group>"; };
+		4520D1E42B1BE82F005FA451 /* EditorToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorToolbar.swift; sourceTree = "<group>"; };
+		4520D1E62B1BE8DE005FA451 /* CardReaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardReaderView.swift; sourceTree = "<group>"; };
+		4520D1E82B1BE942005FA451 /* CardContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardContainerView.swift; sourceTree = "<group>"; };
+		4520D1EA2B1CFC77005FA451 /* CardGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGallery.swift; sourceTree = "<group>"; };
+		4520D1EC2B1CFD8C005FA451 /* CardGalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGalleryItem.swift; sourceTree = "<group>"; };
+		4520D1EE2B1CFF6C005FA451 /* CardCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCarousel.swift; sourceTree = "<group>"; };
+		45B4B6342B4216C000C3F314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847561612B1D02460070F9ED /* CardEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardEditorView.swift; sourceTree = "<group>"; };
+		847561632B1D05B60070F9ED /* FlashCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +106,10 @@
 		4520D19C2B1BCD82005FA451 = {
 			isa = PBXGroup;
 			children = (
+				4520D1D52B1BCDF8005FA451 /* Model */,
 				4520D1A72B1BCD82005FA451 /* SwiftDataLearn */,
+				4520D1E32B1BE80F005FA451 /* Views */,
+				4520D1DA2B1BE4F3005FA451 /* Support */,
 				4520D1BB2B1BCD82005FA451 /* SwiftDataLearnTests */,
 				4520D1C52B1BCD83005FA451 /* SwiftDataLearnUITests */,
 				4520D1A62B1BCD82005FA451 /* Products */,
@@ -98,7 +130,6 @@
 			isa = PBXGroup;
 			children = (
 				4520D1A82B1BCD82005FA451 /* SwiftDataLearnApp.swift */,
-				4520D1AA2B1BCD82005FA451 /* ContentView.swift */,
 				4520D1AC2B1BCD82005FA451 /* Item.swift */,
 				4520D1AE2B1BCD82005FA451 /* Assets.xcassets */,
 				4520D1B02B1BCD82005FA451 /* SwiftDataLearn.entitlements */,
@@ -130,6 +161,43 @@
 				4520D1C82B1BCD83005FA451 /* SwiftDataLearnUITestsLaunchTests.swift */,
 			);
 			path = SwiftDataLearnUITests;
+			sourceTree = "<group>";
+		};
+		4520D1D52B1BCDF8005FA451 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45B4B6342B4216C000C3F314 /* Info.plist */,
+				4520D1D62B1BCE12005FA451 /* SampleDeck.swift */,
+				4520D1D82B1BCE6D005FA451 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4520D1DA2B1BE4F3005FA451 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				4520D1DB2B1BE50F005FA451 /* PreviewSampleData.swift */,
+				4520D1DD2B1BE65C005FA451 /* Design.swift */,
+				4520D1DF2B1BE6DE005FA451 /* UTType+FlashCards.swift */,
+				4520D1E12B1BE71C005FA451 /* HorizontalFlip.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		4520D1E32B1BE80F005FA451 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4520D1AA2B1BCD82005FA451 /* ContentView.swift */,
+				847561632B1D05B60070F9ED /* FlashCardView.swift */,
+				4520D1EE2B1CFF6C005FA451 /* CardCarousel.swift */,
+				4520D1E82B1BE942005FA451 /* CardContainerView.swift */,
+				847561612B1D02460070F9ED /* CardEditorView.swift */,
+				4520D1EC2B1CFD8C005FA451 /* CardGalleryItem.swift */,
+				4520D1EA2B1CFC77005FA451 /* CardGallery.swift */,
+				4520D1E62B1BE8DE005FA451 /* CardReaderView.swift */,
+				4520D1E42B1BE82F005FA451 /* EditorToolbar.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +264,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1510;
 				TargetAttributes = {
 					4520D1A42B1BCD82005FA451 = {
 						CreatedOnToolsVersion = 15.0.1;
@@ -262,7 +330,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4520D1D72B1BCE12005FA451 /* SampleDeck.swift in Sources */,
+				4520D1DE2B1BE65C005FA451 /* Design.swift in Sources */,
+				4520D1E22B1BE71C005FA451 /* HorizontalFlip.swift in Sources */,
 				4520D1AB2B1BCD82005FA451 /* ContentView.swift in Sources */,
+				4520D1E02B1BE6DE005FA451 /* UTType+FlashCards.swift in Sources */,
+				4520D1DC2B1BE50F005FA451 /* PreviewSampleData.swift in Sources */,
+				4520D1E92B1BE942005FA451 /* CardContainerView.swift in Sources */,
+				4520D1EB2B1CFC77005FA451 /* CardGallery.swift in Sources */,
+				4520D1E52B1BE82F005FA451 /* EditorToolbar.swift in Sources */,
+				847561642B1D05B60070F9ED /* FlashCardView.swift in Sources */,
+				4520D1ED2B1CFD8C005FA451 /* CardGalleryItem.swift in Sources */,
+				4520D1E72B1BE8DE005FA451 /* CardReaderView.swift in Sources */,
+				847561622B1D02460070F9ED /* CardEditorView.swift in Sources */,
+				4520D1EF2B1CFF6C005FA451 /* CardCarousel.swift in Sources */,
+				4520D1D92B1BCE6D005FA451 /* Card.swift in Sources */,
 				4520D1AD2B1BCD82005FA451 /* Item.swift in Sources */,
 				4520D1A92B1BCD82005FA451 /* SwiftDataLearnApp.swift in Sources */,
 			);
@@ -335,6 +417,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -396,6 +479,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -423,11 +507,13 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftDataLearn/SwiftDataLearn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataLearn/Preview Content\"";
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Model/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -461,11 +547,13 @@
 				CODE_SIGN_ENTITLEMENTS = SwiftDataLearn/SwiftDataLearn.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftDataLearn/Preview Content\"";
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Model/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -498,6 +586,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -521,6 +610,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -543,6 +633,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
@@ -565,6 +656,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 2AAR9JFLKQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;

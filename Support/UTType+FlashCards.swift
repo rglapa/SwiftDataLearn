@@ -5,4 +5,8 @@
 //  Created by Ruben Glapa on 12/2/23.
 //
 
-import Foundation
+import UniformTypeIdentifiers
+
+extension UTType {
+    static var flashCards = UTType(exportedAs: "com.example.flashCards")
+}
